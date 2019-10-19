@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="583" height="289" viewBox="0 0 583 289">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FF7D84" d="M5 0h573a5 5 0 0 1 5 5v284H0V5a5 5 0 0 1 5-5z" opacity=".198"/>
+        <text fill="#FF7D84" font-family="Karla-Regular, Karla" font-size="24">
+            <tspan x="32" y="38">&lt; &gt;</tspan>
+        </text>
+        <path fill="#3D202C" d="M0 60h583v229H0z"/>
+        <path fill="#1C1E21" d="M0 60h583v224a5 5 0 0 1-5 5H5a5 5 0 0 1-5-5V60z" opacity=".296"/>
+    </g>
+</svg>
