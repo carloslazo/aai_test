@@ -29,9 +29,11 @@ function HeroImage(props) {
         <div class="col-lg-7">
           <div class="shape-group-container">
             <img
+              class="shape"
               src={oval}
               alt="oval"/>
             <img
+              class="shape"
               src={rectangle}
               alt="rectangle"/>
           </div>
