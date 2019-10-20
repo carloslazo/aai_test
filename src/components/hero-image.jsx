@@ -7,7 +7,6 @@ import securityCamera from '../assets/security-camera.svg'
 import chip from '../assets/chip.svg'
 import oval from '../assets/oval.svg'
 import rectangle from '../assets/rectangle.svg'
-import component1 from '../assets/component1.svg'
 
 function HeroImage(props) {
   return (
@@ -28,12 +27,59 @@ function HeroImage(props) {
           </h6>
         </div>
         <div class="col-lg-7">
+          <div class="shape-group-container">
+            <img
+              class="shape"
+              src={oval}
+              alt="oval"/>
+            <img
+              class="shape"
+              src={rectangle}
+              alt="rectangle"/>
+          </div>
+          <div class="icon-group-width">
             <div class="row">
-              <div class="col-12 my-auto text-center my-auto">
-                <img src={component1} class="img-fluid"/>
+              <div class="col-4 my-auto text-center custom-height my-auto">
+                <img
+                  class="custom-fluid-container"
+                  src={smartwatch}
+                  alt="smartwatch"/>
+              </div>
+              <div class="col-4 text-center custom-height">
+                <img
+                  class="custom-fluid-container"
+                  src={drone}
+                  alt="drone"/>
+              </div>
+              <div class="col-4 text-center custom-height">
+                <img
+                  class="custom-fluid-container"
+                  src={webcam}
+                  alt="webcam"/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4 text-center custom-height">
+                <img
+                  class="custom-fluid-container"
+                  src={webcam2}
+                  alt="webcam2"/>
+              </div>
+              <div class="col-4 text-center custom-height">
+                <img
+                  class="custom-fluid-container"
+                  src={securityCamera}
+                  alt="securityCamera"/>
+              </div>
+              <div class="col-4 text-center custom-height">
+                <img
+                  class="custom-fluid-container"
+                  src={chip}
+                  alt="chip"/>
               </div>
             </div>
           </div>
+        </div>
       </div>
     </div>
   </div>
