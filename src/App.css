@@ -9,3 +9,20 @@
   align-items: center;
   height: 120px;
 }
+
+.shapes{
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  padding: 0 15px 0 15px;
+}
+
+
+.test-width{
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
