@@ -27,7 +27,7 @@ function HeroImage(props) {
           </h6>
         </div>
         <div class="col-lg-7">
-          <div class="shapes">
+          <div class="shape-group-container">
             <img
               src={oval}
               alt="oval"/>
@@ -35,7 +35,7 @@ function HeroImage(props) {
               src={rectangle}
               alt="rectangle"/>
           </div>
-          <div class="test-width">
+          <div class="icon-group-width">
             <div class="row">
               <div class="col-4 my-auto text-center custom-height my-auto">
                 <img
