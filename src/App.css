@@ -15,18 +15,16 @@
   position: absolute;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 95%;
   height: 100%;
-  padding: 0 15px 0 15px;
-  margin: auto;
 }
 .shape{
-  width: auto;
+  width: 40%;
 }
 
 .icon-group-width{
   align-items: center;
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: auto;
 }
