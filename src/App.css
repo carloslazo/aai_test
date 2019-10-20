@@ -3,28 +3,3 @@
   width: 80%;
   object-fit: contain;
 }
-
-.custom-height{
-  display: flex;
-  align-items: center;
-  height: 120px;
-}
-
-.shape-group-container{
-  display: flex;
-  position: absolute;
-  justify-content: space-between;
-  align-items: center;
-  width: 95%;
-  height: 100%;
-}
-.shape{
-  width: 40%;
-}
-
-.icon-group-width{
-  align-items: center;
-  width: 100%;
-  height: auto;
-  margin: auto;
-}
