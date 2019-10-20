@@ -1,0 +1,16 @@
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: rgba(255, 255, 255, 1);
+}
+
+.bg-ai {
+  background-color: #510023;
+}
+
+.jumbotron{
+  background-image: linear-gradient(#510023, #820041);
+}
