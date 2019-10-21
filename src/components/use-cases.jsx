@@ -3,9 +3,9 @@ import CardDeck from "./card-deck.jsx";
 
 function UseCases(props) {
   return (
-    <div class="container my-5">
+    <div class="container-fluid my-5 background-color-cases">
       <div class="row">
-        <div class="col mx-auto text-lg-center">
+        <div class="col mx-auto my-5 text-lg-center">
           <h3>
             Transform your business with computer vision
           </h3>
@@ -14,7 +14,7 @@ function UseCases(props) {
             opportunities with intelligent sight anywhere.
           </p>
           <h6>
-            <a class="text-dark" href="#">
+            <a class="text-dark font-weight-bold" href="#">
               See all use cases <i class="fas fa-arrow-right" />
           </a>
         </h6>
