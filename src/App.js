@@ -4,6 +4,7 @@ import './custom-bootstrap.css';
 import NavBar from './components/navbar.jsx'
 import HeroImage from './components/hero-image.jsx'
 import DeploySteps from './components/deploy-steps.jsx'
+import UseCases from './components/use-cases.jsx'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <NavBar/>
       <HeroImage/>
       <DeploySteps/>
+      <UseCases/>
     </div>
   );
 }
