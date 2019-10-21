@@ -11,7 +11,6 @@ function App() {
       <NavBar/>
       <HeroImage/>
       <DeploySteps/>
-      
     </div>
   );
 }

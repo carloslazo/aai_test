@@ -19,20 +19,19 @@ function NumberedSteps(props) {
             </div>
             <div class="numbered-steps-text-container">
               <h1 class="display-3 font-weight-bold">1</h1>
-              <h5>
-                Choose a model
-              </h5>
+              <h5>Choose a model</h5>
               <p>
                 Select from a catalog of deep learning models or upload your own
               </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 text-center">
           <img
             class="img-fluid background-max-height"
             src={group19}
-            alt="group19" />
+            alt="group19"
+          />
         </div>
       </div>
       <div class="row">
@@ -40,16 +39,18 @@ function NumberedSteps(props) {
           <img
             class="img-fluid background-max-height"
             src={pointerRight}
-            alt="pointerRight" />
+            alt="pointerRight"
+          />
         </div>
       </div>
-      
+
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 text-center">
           <img
             class="img-fluid background-max-height"
             src={developer}
-            alt="developer" />
+            alt="developer"
+          />
         </div>
         <div class="col-lg-6">
           <div class="numbered-steps-container">
@@ -58,11 +59,10 @@ function NumberedSteps(props) {
             </div>
             <div class="numbered-steps-text-container">
               <h1 class="display-3 font-weight-bold">2</h1>
-              <h5>
-                Develop your application
-              </h5>
+              <h5>Develop your application</h5>
               <p>
-                Flexible and customizable APIs quickly enable core computer vision services.
+                Flexible and customizable APIs quickly enable core computer
+                vision services.
               </p>
             </div>
           </div>
@@ -73,10 +73,11 @@ function NumberedSteps(props) {
           <img
             class="img-fluid background-max-height"
             src={pointerLeft}
-            alt="pointerLeft" />
+            alt="pointerLeft"
+          />
         </div>
       </div>
-      
+
       <div class="row">
         <div class="col-lg-6">
           <div class="numbered-steps-container">
@@ -85,20 +86,20 @@ function NumberedSteps(props) {
             </div>
             <div class="numbered-steps-text-container">
               <h1 class="display-3 font-weight-bold">3</h1>
-              <h5>
-                Deploy to the edge
-              </h5>
+              <h5>Deploy to the edge</h5>
               <p>
-                Quickly prototype, test and iterate with a variety of camera-enabled ARM-32, ARM-64 and x86 devices.
+                Quickly prototype, test and iterate with a variety of
+                camera-enabled ARM-32, ARM-64 and x86 devices.
               </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 text-center">
           <img
             class="img-fluid background-max-height background-max-height"
             src={group4}
-            alt="group4" />
+            alt="group4"
+          />
         </div>
       </div>
     </div>
