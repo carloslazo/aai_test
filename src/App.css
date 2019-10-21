@@ -28,3 +28,30 @@
   height: auto;
   margin: auto;
 }
+
+.numbered-shape{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: -1;
+  width: 90%;
+  height: 100%;
+}
+
+.numbered-shape img{
+  width: 30%;
+  height: 50%;
+}
+
+.numbered-steps-container{
+  height: 286px;
+}
+
+.numbered-steps-text-container h1{
+  color: #CDCDCD;
+}
+
+.numbered-steps-text-container{
+  width: 70%;
+  margin: auto;
+}
