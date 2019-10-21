@@ -30,7 +30,7 @@ function NumberedSteps(props) {
         </div>
         <div class="col-lg-6">
           <img
-            class="img-fluid"
+            class="img-fluid background-max-height"
             src={group19}
             alt="group19" />
         </div>
@@ -38,7 +38,7 @@ function NumberedSteps(props) {
       <div class="row">
         <div class="col-10 mx-auto">
           <img
-            class="img-fluid"
+            class="img-fluid background-max-height"
             src={pointerRight}
             alt="pointerRight" />
         </div>
@@ -47,7 +47,7 @@ function NumberedSteps(props) {
       <div class="row">
         <div class="col-lg-6">
           <img
-            class="img-fluid"
+            class="img-fluid background-max-height"
             src={developer}
             alt="developer" />
         </div>
@@ -71,7 +71,7 @@ function NumberedSteps(props) {
       <div class="row">
         <div class="col-10 mx-auto">
           <img
-            class="img-fluid"
+            class="img-fluid background-max-height"
             src={pointerLeft}
             alt="pointerLeft" />
         </div>
@@ -80,10 +80,10 @@ function NumberedSteps(props) {
       <div class="row">
         <div class="col-lg-6">
           <div class="numbered-steps-container">
+            <div class="numbered-shape">
+              <img src={polygon} alt="oval" />
+            </div>
             <div class="numbered-steps-text-container">
-              <div class="numbered-shape">
-                <img src={polygon} alt="oval" />
-              </div>
               <h1 class="display-3 font-weight-bold">3</h1>
               <h5>
                 Deploy to the edge
@@ -96,7 +96,7 @@ function NumberedSteps(props) {
         </div>
         <div class="col-lg-6">
           <img
-            class="img-fluid"
+            class="img-fluid background-max-height background-max-height"
             src={group4}
             alt="group4" />
         </div>
